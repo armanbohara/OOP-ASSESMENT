@@ -2,11 +2,11 @@ package Player;
 
 public class PlayerStatsTest {
     public static void main(String[] args) {
-        FootballStats Dibas = new FootballStats("Dibas Mainali", 900, 1000);
-        CricketStats Bibas = new CricketStats("Bibas Mainali", 600, 25000);
+        FootballStats Arman = new FootballStats("Arman", 40, 400);
+        CricketStats AB = new CricketStats("AB", 60, 250);
 
-        Dibas.showFootballStats();
-        Bibas.showCricketStats();
+        Arman.showFootballStats();
+        AB.showCricketStats();
     }
 }
 
