@@ -6,13 +6,13 @@ public class Staff {
     public Staff() {
         staffList = new Employee[3];
 
-        staffList[0] = new Executive("Dibas", "Bhaktapur", "9818181818", 1000);
+        staffList[0] = new Executive("Arman", "KTM", "0000000000", 5000);
         ((Executive) staffList[0]).awardBonus(500);
 
-        staffList[1] = new Hourly("Digant", "Kathmandu", "9800000000", 15.50);
+        staffList[1] = new Hourly("Aman", "Kathmandu", "902389308", 15.50);
         ((Hourly) staffList[1]).addHours(40);
 
-        staffList[2] = new Employee("Bibas", "lalitpur", "9811111111", 500);
+        staffList[2] = new Employee("AB", "Lalitpur", "7823487324", 400);
     }
 
     public void payday() {
