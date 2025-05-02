@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class PunctuationCount {
     public static void main(String[] args) {
-        String text = "Hello!!!!! my name is dibas mainali. what are you doing? lets's play a game: ";
+        String text = "Hello!!!!! my name is arman bohara. what are you doing? lets's play a game: ";
 
         // Define punctuation characters to count
         char[] punctuations = {'.', ',', '-', '!', '?', ';', ':', '\''};
